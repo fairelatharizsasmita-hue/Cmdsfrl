@@ -10,7 +10,7 @@ def run():
             text = line[6:]
             print(text.strip('"'))
 
-        elif line == "exit":
+        elif line == "ext":
             print("Leaving FRL Lang...")
             break
 
