@@ -16,7 +16,7 @@ def menu():
 		os.system("clear")
 		print("—————————————————————————————————")
 		print("|	CMDSFRL.GUI		|")
-		print("|	ALPHA 1.3		|")
+		print("|	ALPHA 1.4		|")
 		print("|	OS:FRL@OS		|")
 		print("—————————————————————————————————")
 		print("Made By: Athariz21")
