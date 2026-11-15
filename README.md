@@ -77,4 +77,5 @@ Created by Fairel
 ---
 
 Thanks for checking out CMDSFRL!
+
 (yes i ask chatgpt for ts)
