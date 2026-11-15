@@ -62,7 +62,7 @@ Example:
 write "Hello World!"
 
 - "write" — displays text.
-- "exit" — exits FRL Lang.
+- "ext" — exits FRL Lang.
 
 Project Status
 
