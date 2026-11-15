@@ -1,0 +1,78 @@
+#!/data/data/com.termux/files/usr/bin/python
+import system_monitor
+import time
+import os
+import subprocess
+import frl_lang
+def menu():
+	while True:
+		os.system("clear")
+		print("FRL@:loading os...")
+		time.sleep(1)
+		print("FRL@: loading terminal...")
+		time.sleep(1)
+		print("FRL@: loaded please wait a second")
+		time.sleep(1)
+		os.system("clear")
+		print("—————————————————————————————————")
+		print("|	CMDSFRL.GUI		|")
+		print("|	ALPHA 1.3		|")
+		print("|	OS:FRL@OS		|")
+		print("—————————————————————————————————")
+		print("Made By: Athariz21")
+		print("")
+		print("1=update")
+		print("2=python")
+		print("3=acode")
+		print("4=vscode")
+		print("5=more info")
+		print("6=system update")
+		print("7=system monitor check")
+		print("8=Frl lang")
+		print("0=exit")
+		pilih = input("\nFrl@os: =》")
+		if pilih == "1":
+			subprocess.run(["pkg", "update"])
+			subprocess.run(["pkg", "upgrade", "-y"])
+		elif pilih == "2":
+			subprocess.run("python")
+		elif pilih == "3":
+			subprocess.run("acodeX-server")
+		elif pilih == "4":
+			subprocess.run("code-server")
+		elif pilih == "5":
+			print("APP:termux/\DEV:Athariz21 ")
+		elif pilih == "6":
+			print("1=Continue")
+			print("2=cancel")
+			milih = input("》")
+			if milih == "1":
+				print("updating please wait")
+				time.sleep(1)
+				print("updating os...	[ok]")
+				time.sleep(1)
+				print("updating terminal...	[ok]")
+				time.sleep(2)
+				print("Done...")
+				time.sleep(1)
+			elif milih == "2":
+				print("update cancelled")
+			else:
+				print("fatal error")
+				break
+		elif pilih == "7":
+			system_monitor.system_check()
+		elif pilih == "8":
+			frl_lang.run()
+		elif pilih == "0":
+			print("closing...")
+			time.sleep(2)
+			print("closed")
+			break
+		else:
+			print("code error")
+		if pilih != "4" and pilih != "0":
+			input("\nPress enter to go back to the menu")
+
+if __name__ == "__main__":
+	menu()
