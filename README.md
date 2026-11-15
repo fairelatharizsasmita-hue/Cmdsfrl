@@ -1,76 +1,83 @@
-CMDSFRL Alpha 1.3
+# CMDSFRL 1.4
 
-A custom command environment for Termux, featuring FRL Lang.
+A custom command environment for Termux, featuring FRL Lang and FRL System Check.
 
-Requirements
+## Requirements
 
 - Android device
 - Termux
 - Python 3
 
-Installation Tutorial
+## Installation Tutorial
 
-Step 1 — Download CMDSFRL
+### Step 1 - Download CMDSFRL
 
-1. Open the "CMDSFRL GitHub repository" (https://github.com/fairelatharizsasmita-hue/Cmdsfrl.1.3).
+1. Open the CMDSFRL GitHub repository:
+   https://github.com/fairelatharizsasmita-hue/Cmdsfrl
 2. Tap Code.
 3. Select Download ZIP.
 4. Wait for the download to finish.
 
-Step 2 — Extract the ZIP
+### Step 2 - Extract the ZIP
 
 Extract the downloaded ZIP using your file manager.
 
-Step 3 — Open Termux
+### Step 3 - Open Termux
 
 Give Termux storage access:
 
-termux-setup-storage
+    termux-setup-storage
 
-Step 4 — Install Python
+### Step 4 - Install Python
 
-pkg update
-pkg install python
+    pkg update
+    pkg install python
 
-Step 5 — Install CMDSFRL files
+### Step 5 - Install CMDSFRL Files
 
 Navigate to the extracted project folder. Then run:
 
-mkdir -p ~/bin
-cp cmdsfrl frl_lang.py ~/bin/
-chmod +x ~/bin/cmdsfrl
+    mkdir -p ~/bin
+    cp cmdsfrl frl_lang.py system_monitor.py ~/bin/
+    chmod +x ~/bin/cmdsfrl
 
-Step 6 — Configure PATH
+Make sure all three files are present:
+- cmdsfrl
+- frl_lang.py
+- system_monitor.py
 
-Add "~/bin" to PATH if it is not already configured:
+### Step 6 - Configure PATH
 
-echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
+    echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
 
-Step 7 — Launch CMDSFRL
+### Step 7 - Launch CMDSFRL
 
-Now run:
+    cmdsfrl
 
-cmdsfrl
+## Features
 
-Note: The "cmdsfrl" file is an executable Python launcher without a ".py" extension. "frl_lang.py" is its Python module.
+- Custom Command Environment
+- FRL Lang - Experimental scripting language
+- FRL System Check - Displays basic system information
 
-FRL Lang Tutorial
+## FRL Lang Tutorial
 
 Example:
 
-write "Hello World!"
+    write "Hello World!"
 
-- "write" — displays text.
-- "ext" — exits FRL Lang.
+- write - Displays text.
+- ext - Exits FRL Lang.
 
-Project Status
+## Project Status
 
-- CMDSFRL Alpha 1.3: Development build
+- CMDSFRL 1.4: Development build
 - FRL Lang: Experimental
+- FRL System Check: Available
 - Alpine Linux Port: Work in Progress
 
-Developer
+## Developer
 
 Created by Fairel
 
