@@ -1,0 +1,22 @@
+body {
+  font-family: monospace;
+  font-size: 20px;
+  background-color: black;
+  text-align: center;
+}
+a {
+  color: lime;
+}
+H1 {
+  color: lime;
+}
+p {
+  color: lime;
+}
+H6 {
+  color: lime;
+  font-size: 5px
+}
+H2 {
+  color: lime
+}
