@@ -14,9 +14,14 @@ A custom command environment for Termux, featuring FRL Lang and FRL System Check
 
 1. Open the CMDSFRL GitHub repository:
    https://github.com/fairelatharizsasmita-hue/Cmdsfrl
-2. Tap Code.
-3. Select Download ZIP.
-4. Wait for the download to finish.
+   
+   or through our website
+   
+   https://fairelatharizsasmita-hue.github.io/Cmdsfrl/
+3. Tap release.
+4. pick your versions.
+5. Download the ZIP.
+6. Wait for the download to finish.
 
 ### Step 2 - Extract the ZIP
 
