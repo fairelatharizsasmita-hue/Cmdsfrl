@@ -85,4 +85,8 @@ Created by Fairel
 
 Thanks for checking out CMDSFRL!
 
+## Our website 
+
+https://fairelatharizsasmita-hue.github.io/Cmdsfrl/
+
 (yes i ask chatgpt for ts)
